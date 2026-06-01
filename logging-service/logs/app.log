@@ -1,0 +1,314 @@
+::1 - - [21/May/2026:10:01:39 +0000] "GET / HTTP/1.1" 200 26 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+::1 - - [21/May/2026:10:01:39 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "http://localhost:5004/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+::1 - - [21/May/2026:10:02:27 +0000] "GET /api/logs HTTP/1.1" 200 416 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+::1 - - [21/May/2026:10:02:27 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "http://localhost:5004/api/logs" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+::1 - - [21/May/2026:10:08:12 +0000] "POST /api/log HTTP/1.1" 404 147 "-" "PostmanRuntime/7.39.1"
+
+[2026-05-21T10:09:10.101Z] Transaction Created Successfully
+::1 - - [21/May/2026:10:09:10 +0000] "POST /api/logs HTTP/1.1" 201 36 "-" "PostmanRuntime/7.39.1"
+::1 - - [21/May/2026:10:09:23 +0000] "GET /api/logs HTTP/1.1" 200 1111 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+::1 - - [21/May/2026:10:09:31 +0000] "GET /api/logs HTTP/1.1" 200 1307 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+::1 - - [21/May/2026:12:05:03 +0000] "POST /api/log HTTP/1.1" 404 147 "-" "PostmanRuntime/7.39.1"
+
+[2026-05-21T12:05:09.102Z] undefined
+::1 - - [21/May/2026:12:05:09 +0000] "POST /api/logs HTTP/1.1" 201 36 "-" "PostmanRuntime/7.39.1"
+::1 - - [21/May/2026:12:16:00 +0000] "GET /api/logs HTTP/1.1" 200 1753 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+::1 - - [21/May/2026:12:16:01 +0000] "GET /api/logs HTTP/1.1" 200 1949 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+::1 - - [21/May/2026:12:16:02 +0000] "GET /api/logs HTTP/1.1" 200 2145 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+::1 - - [21/May/2026:12:16:03 +0000] "GET /api/logs HTTP/1.1" 200 2341 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+::1 - - [21/May/2026:12:16:03 +0000] "GET /api/logs HTTP/1.1" 200 2537 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+::1 - - [21/May/2026:12:16:04 +0000] "GET /api/logs HTTP/1.1" 200 2733 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+::1 - - [21/May/2026:12:16:04 +0000] "GET /api/logs HTTP/1.1" 200 2929 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+::1 - - [21/May/2026:12:16:05 +0000] "GET /api/logs HTTP/1.1" 200 3125 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+::1 - - [21/May/2026:12:16:05 +0000] "GET /api/logs HTTP/1.1" 200 3321 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+::1 - - [21/May/2026:12:16:07 +0000] "GET /api/logs HTTP/1.1" 200 3517 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+::1 - - [21/May/2026:12:16:07 +0000] "GET /api/logs HTTP/1.1" 200 3713 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+::1 - - [21/May/2026:12:16:07 +0000] "GET /api/logs HTTP/1.1" 200 3909 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+::1 - - [21/May/2026:12:36:45 +0000] "GET /api/logs HTTP/1.1" 200 4105 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+::1 - - [21/May/2026:12:36:45 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "http://localhost:5004/api/logs" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+::1 - - [21/May/2026:12:44:30 +0000] "GET /api/logs HTTP/1.1" 200 4528 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+::1 - - [21/May/2026:12:44:45 +0000] "GET /api/logs HTTP/1.1" 200 4724 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+::1 - - [21/May/2026:12:44:46 +0000] "GET /api/logs HTTP/1.1" 200 4920 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+::1 - - [21/May/2026:12:57:23 +0000] "GET /api/logs HTTP/1.1" 200 5116 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+::1 - - [21/May/2026:12:57:30 +0000] "GET / HTTP/1.1" 200 26 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+::1 - - [21/May/2026:14:02:34 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+::1 - - [21/May/2026:14:18:09 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+::1 - - [21/May/2026:14:18:09 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+::1 - - [21/May/2026:14:18:09 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+
+[2026-05-21T14:20:32.279Z] 
+Transaction Created
+User: Harish1255555553
+Amount: 120000
+Status: blocked
+Fraud: true
+        
+::1 - - [21/May/2026:14:20:32 +0000] "POST /api/logs HTTP/1.1" 201 36 "-" "axios/1.16.1"
+
+[2026-05-21T14:31:47.432Z] 
+Transaction Created
+
+User: Harish999
+Amount: 120000
+Status: blocked
+Fraud: true
+        
+::1 - - [21/May/2026:14:31:47 +0000] "POST /api/logs HTTP/1.1" 201 36 "-" "axios/1.16.1"
+
+[2026-05-21T14:44:31.951Z] 
+Transaction Created
+
+User: Harish999
+Amount: 120000
+Status: blocked
+Fraud: true
+        
+::1 - - [21/May/2026:14:44:31 +0000] "POST /api/logs HTTP/1.1" 201 36 "-" "axios/1.16.1"
+
+[2026-05-21T15:36:52.735Z] 
+Transaction Created
+
+User: Harish999
+Amount: 120000
+Status: blocked
+Fraud: true
+        
+::1 - - [21/May/2026:15:36:52 +0000] "POST /api/logs HTTP/1.1" 201 36 "-" "axios/1.16.1"
+
+[2026-05-21T15:38:31.596Z] 
+Transaction Created
+
+User: Sneha Gupta
+Amount: 10000000
+Status: blocked
+Fraud: true
+        
+::1 - - [21/May/2026:15:38:31 +0000] "POST /api/logs HTTP/1.1" 201 36 "-" "axios/1.16.1"
+
+[2026-05-21T15:40:09.878Z] 
+Transaction Created
+
+User: Sneha Gupta
+Amount: 10000
+Status: completed
+Fraud: false
+        
+::1 - - [21/May/2026:15:40:09 +0000] "POST /api/logs HTTP/1.1" 201 36 "-" "axios/1.16.1"
+
+[2026-05-21T15:47:50.591Z] 
+Transaction Created
+
+User: jsxhjsb
+Amount: 120000
+Status: blocked
+Fraud: true
+        
+::1 - - [21/May/2026:15:47:50 +0000] "POST /api/logs HTTP/1.1" 201 36 "-" "axios/1.16.1"
+
+[2026-05-21T15:48:34.626Z] 
+Transaction Created
+
+User: jsxhjsb
+Amount: 12000
+Status: completed
+Fraud: false
+        
+::1 - - [21/May/2026:15:48:34 +0000] "POST /api/logs HTTP/1.1" 201 36 "-" "axios/1.16.1"
+
+[2026-05-21T15:48:37.600Z] 
+Transaction Created
+
+User: jsxhjsb
+Amount: 12000
+Status: completed
+Fraud: false
+        
+::1 - - [21/May/2026:15:48:37 +0000] "POST /api/logs HTTP/1.1" 201 36 "-" "axios/1.16.1"
+
+[2026-05-25T08:12:38.952Z] 
+Transaction Created
+
+User: U101
+Amount: 70000
+Status: blocked
+Fraud: true
+        
+::1 - - [25/May/2026:08:12:39 +0000] "POST /api/logs HTTP/1.1" 201 36 "-" "axios/1.16.1"
+
+[2026-05-25T09:02:33.292Z] 
+Transaction Created
+
+User: U500
+Amount: 1200
+Status: completed
+Fraud: false
+        
+::1 - - [25/May/2026:09:02:33 +0000] "POST /api/logs HTTP/1.1" 201 36 "-" "axios/1.16.1"
+
+[2026-05-28T11:06:52.791Z] 
+Transaction Created
+
+User: U101
+Amount: 85000
+Status: blocked
+Fraud: true
+        
+::1 - - [28/May/2026:11:06:52 +0000] "POST /api/logs HTTP/1.1" 201 36 "-" "axios/1.16.1"
+
+[2026-05-28T11:13:35.557Z] 
+Transaction Created
+
+User: U101
+Amount: 8500000056
+Status: blocked
+Fraud: true
+        
+::1 - - [28/May/2026:11:13:35 +0000] "POST /api/logs HTTP/1.1" 201 36 "-" "axios/1.16.1"
+
+[2026-05-28T11:43:06.978Z] 
+Transaction Created
+
+User: U301
+Amount: 2500
+Status: completed
+Fraud: false
+        
+::1 - - [28/May/2026:11:43:07 +0000] "POST /api/logs HTTP/1.1" 201 36 "-" "axios/1.16.1"
+
+[2026-05-28T15:39:30.823Z] 
+Transaction Created
+
+User: Pranshu Patel
+Amount: 120000
+Status: blocked
+Fraud: true
+        
+::1 - - [28/May/2026:15:39:30 +0000] "POST /api/logs HTTP/1.1" 201 36 "-" "axios/1.16.1"
+
+[2026-05-28T15:40:22.402Z] 
+Transaction Created
+
+User: Pranshu Patel
+Amount: 50000
+Status: completed
+Fraud: false
+        
+::1 - - [28/May/2026:15:40:22 +0000] "POST /api/logs HTTP/1.1" 201 36 "-" "axios/1.16.1"
+
+[2026-05-28T15:40:40.408Z] 
+Transaction Created
+
+User: Pranshu Patel
+Amount: 70000
+Status: blocked
+Fraud: true
+        
+::1 - - [28/May/2026:15:40:40 +0000] "POST /api/logs HTTP/1.1" 201 36 "-" "axios/1.16.1"
+
+[2026-05-29T09:18:12.857Z] 
+Transaction Created
+
+User: U101
+Amount: 20000
+Status: completed
+Fraud: false
+        
+::1 - - [29/May/2026:09:18:12 +0000] "POST /api/logs HTTP/1.1" 201 36 "-" "axios/1.16.1"
+
+[2026-05-29T09:18:44.456Z] 
+Transaction Created
+
+User: U999
+Amount: 120000
+Status: blocked
+Fraud: true
+        
+::1 - - [29/May/2026:09:18:44 +0000] "POST /api/logs HTTP/1.1" 201 36 "-" "axios/1.16.1"
+
+[2026-05-29T09:23:01.569Z] 
+Transaction Created
+
+User: U999
+Amount: 120000
+Status: blocked
+Fraud: true
+Reasons: High amount transaction (> 50,000), Transaction from non-allowed location, High debit transaction (> 1,00,000)
+        
+::1 - - [29/May/2026:09:23:01 +0000] "POST /api/logs HTTP/1.1" 201 36 "-" "axios/1.16.1"
+
+[2026-05-29T09:24:08.472Z] 
+Transaction Created
+
+User: U1001
+Amount: 1000
+Status: completed
+Fraud: false
+Reasons: 
+        
+::1 - - [29/May/2026:09:24:08 +0000] "POST /api/logs HTTP/1.1" 201 36 "-" "axios/1.16.1"
+
+[2026-05-29T09:24:38.345Z] 
+Transaction Created
+
+User: U1002
+Amount: 90000
+Status: completed
+Fraud: false
+Reasons: High amount transaction (> 50,000)
+        
+::1 - - [29/May/2026:09:24:38 +0000] "POST /api/logs HTTP/1.1" 201 36 "-" "axios/1.16.1"
+
+[2026-05-29T09:28:15.522Z] 
+Transaction Created
+
+User: U1002
+Amount: 90000
+Status: completed
+Fraud: false
+Reasons: High amount transaction (> 50,000)
+        
+::1 - - [29/May/2026:09:28:15 +0000] "POST /api/logs HTTP/1.1" 201 36 "-" "axios/1.16.1"
+
+[2026-06-01T10:01:10.274Z] 
+Transaction Created
+
+User: krishna
+Amount: 150000
+Status: blocked
+Fraud: true
+Reasons: High amount transaction (> 50,000), Transaction from non-allowed location, High debit transaction (> 1,00,000)
+        
+::1 - - [01/Jun/2026:10:01:10 +0000] "POST /api/logs HTTP/1.1" 201 36 "-" "axios/1.16.1"
+
+[2026-06-01T10:02:25.863Z] 
+Transaction Created
+
+User: krishna
+Amount: 150000
+Status: blocked
+Fraud: true
+Reasons: High amount transaction (> 50,000), Transaction from non-allowed location, High debit transaction (> 1,00,000)
+        
+::1 - - [01/Jun/2026:10:02:25 +0000] "POST /api/logs HTTP/1.1" 201 36 "-" "axios/1.16.1"
+
+[2026-06-01T10:03:03.479Z] 
+Transaction Created
+
+User: krishna
+Amount: 100000
+Status: blocked
+Fraud: true
+Reasons: High amount transaction (> 50,000), Transaction from non-allowed location
+        
+::1 - - [01/Jun/2026:10:03:03 +0000] "POST /api/logs HTTP/1.1" 201 36 "-" "axios/1.16.1"
+
+[2026-06-01T10:05:07.937Z] 
+Transaction Created
+
+User: krishna
+Amount: 100
+Status: completed
+Fraud: false
+Reasons: Transaction from non-allowed location
+        
+::1 - - [01/Jun/2026:10:05:07 +0000] "POST /api/logs HTTP/1.1" 201 36 "-" "axios/1.16.1"
