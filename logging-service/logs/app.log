@@ -312,3 +312,36 @@ Fraud: false
 Reasons: Transaction from non-allowed location
         
 ::1 - - [01/Jun/2026:10:05:07 +0000] "POST /api/logs HTTP/1.1" 201 36 "-" "axios/1.16.1"
+
+[2026-06-01T10:56:34.097Z] 
+Transaction Created
+
+User: Harish Gupta
+Amount: 100000
+Status: blocked
+Fraud: true
+Reasons: High amount transaction (> 50,000), Transaction from non-allowed location
+        
+::1 - - [01/Jun/2026:10:56:34 +0000] "POST /api/logs HTTP/1.1" 201 36 "-" "axios/1.16.1"
+
+[2026-06-01T10:57:02.596Z] 
+Transaction Created
+
+User: Harish Gupta
+Amount: 10000
+Status: completed
+Fraud: false
+Reasons: Transaction from non-allowed location
+        
+::1 - - [01/Jun/2026:10:57:02 +0000] "POST /api/logs HTTP/1.1" 201 36 "-" "axios/1.16.1"
+
+[2026-06-01T10:57:28.263Z] 
+Transaction Created
+
+User: Harish--Gupta
+Amount: 120000
+Status: blocked
+Fraud: true
+Reasons: High amount transaction (> 50,000), Transaction from non-allowed location, High debit transaction (> 1,00,000)
+        
+::1 - - [01/Jun/2026:10:57:28 +0000] "POST /api/logs HTTP/1.1" 201 36 "-" "axios/1.16.1"
